@@ -5,7 +5,9 @@
   "main": "index.ts",
   "scripts": {
     "start": "nodemon src/index.ts",
-    "generate":"drizzle-kit generate:pg"
+    "generate":"drizzle-kit generate:pg",
+    "firebase:dev":"firebase init",
+    "firebase:emulators":"firebase emulators:start"
   },
   "keywords": [],
   "author": "",
